@@ -13,5 +13,5 @@ fn main() {
     let mut arr = [64, 25, 12, 22, 11];
     println!("Original array: {:?}", arr);
     bubble_sort(&mut arr);
-    println!("Sorted array:
-    
+    println!("Sorted array: {:?}", arr);
+}
